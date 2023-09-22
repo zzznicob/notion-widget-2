@@ -14,12 +14,34 @@ body {
   overflow-x: hidden;
 }
 
+.flex {
+display: flex;
+}
+
 
 button {
-  border-radius: 12px;
+  border-radius: 50%;
   border: solid 1px black;
-  background-color: beige;
+  background-color: rgba(215,215,215);
+  width: 35px;
+  height:35px;
+}
 
+.flexfill{
+margin-top: auto;
+justify-content: center;
+align-items: flex-end;
+bottom: 0;
+display: flex;
+
+margin-bottom: 7.5px;
+}
+
+.btnwrap {
+justify-content: center;
+align-items: flex-end;
+bottom: 0;
+display: flex;
 }
 button:hover {
   animation: opacity 1s ease-in-out;
@@ -44,6 +66,7 @@ button:hover {
 background: rgba(225,225,225,1);
 border: solid 2px black;
 border-radius: 12px;
+overflow: hidden;
 }
 
 h1 {
@@ -70,4 +93,140 @@ h2 {
   flex-wrap: wrap;
 }
 
+.box {
+height: 325px;
+margin: 5px;
+margin-left: 28px;
+width: 85%;
+background: rgba(255,255,255,0);
+position: absolute;
+}
 
+.wrap {
+position: relative;
+}
+
+
+
+
+
+/*animations*/
+
+.animate {
+transform: translateX(-12.62%);
+width: 268%;
+display: flex;
+gap: 25px;
+transition: 1s;
+}
+
+.animate2 {
+transform: translateX(-25.24%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animate3 {
+transform: translateX(-37.86%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animate4 {
+transform: translateX(-50.48%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animate5 {
+transform: translateX(-63.1%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animate6 {
+transform: translateX(-75.72%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animate7 {
+transform: translateX(-88.34%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+/* back animations*/
+
+
+.animateback {
+transform: translateX(0%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animateback2 {
+transform: translateX(-12.62%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animateback3 {
+transform: translateX(-25.24%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animateback4 {
+transform: translateX(-37.86%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animateback5 {
+transform: translateX(-50.48%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
+
+.animateback6 {
+transform: translateX(-63.1%);
+width: 268%;
+display: flex;
+height: 400px;
+gap: 25px;
+transition: 1s;
+}
