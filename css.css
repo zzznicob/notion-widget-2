@@ -11,7 +11,7 @@ body {
   font-family:'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .flex {
