@@ -111,6 +111,7 @@ margin: solid 1px black ;
 display: flex;
 flex-direction: column;
     width: 330px;
+    border-radius: 5px;
 }
 
 .box {
