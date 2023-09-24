@@ -10,7 +10,7 @@ body {
   background-color: rgb(255, 255, 255);
   font-family:'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
-  justify-content: center;
+  
   overflow-x: hidden;
 }
 
@@ -80,6 +80,11 @@ justify-content: space-evenly;
 
 .welcome {
  display: flex;
+
+}
+
+#bold {
+font-weight: bold;
 }
 
 
@@ -97,15 +102,82 @@ h2 {
 height: 325px;
 margin: 5px;
 margin-left: 28px;
-width: 85%;
-background: rgba(255,255,255,0);
-position: absolute;
+width: 300px;
+background: rgba(255,255,255,0.1);
+margin: solid 1px black ;
+}
+
+.innercontent {
+display: flex;
+flex-direction: column;
+    width: 330px;
+}
+
+.box {
+margin-right: 2em;
+}
+
+.innercontent {
+height: 282px;
+background: white;
 }
 
 .wrap {
 position: relative;
+display: flex;
+flex-direction: row;
 }
 
+.class1{
+display: flex;
+align-items: center;
+height: 47px;
+justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+.class2{
+display: flex;
+align-items: center;
+height: 47px;
+justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+.class3{
+display: flex;
+align-items: center;
+height: 47px;
+justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+.class4{
+display: flex;
+align-items: center;
+height: 47px;
+justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+.class5 {
+ display: flex;
+align-items: center;
+height: 47px;
+ justify-content: space-between;
+  margin: 0 20px 0 20px;
+} 
+.class6{
+display: flex;
+align-items: center;
+height: 47px;
+justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+
+h2 {
+font-weight: 400;
+}
+
+h1 {
+font-weight: 400;
+}
 
 
 
@@ -113,7 +185,7 @@ position: relative;
 /*animations*/
 
 .animate {
-transform: translateX(-12.62%);
+transform: translateX(-37%);
 width: 268%;
 display: flex;
 gap: 25px;
@@ -121,7 +193,7 @@ transition: 1s;
 }
 
 .animate2 {
-transform: translateX(-25.24%);
+transform: translateX(-74%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -130,7 +202,7 @@ transition: 1s;
 }
 
 .animate3 {
-transform: translateX(-37.86%);
+transform: translateX(-111%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -139,7 +211,7 @@ transition: 1s;
 }
 
 .animate4 {
-transform: translateX(-50.48%);
+transform: translateX(-148%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -148,7 +220,7 @@ transition: 1s;
 }
 
 .animate5 {
-transform: translateX(-63.1%);
+transform: translateX(-185%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -157,7 +229,7 @@ transition: 1s;
 }
 
 .animate6 {
-transform: translateX(-75.72%);
+transform: translateX(-222%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -166,7 +238,7 @@ transition: 1s;
 }
 
 .animate7 {
-transform: translateX(-88.34%);
+transform: translateX(-259%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -187,7 +259,7 @@ transition: 1s;
 }
 
 .animateback2 {
-transform: translateX(-12.62%);
+transform: translateX(-37%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -196,7 +268,7 @@ transition: 1s;
 }
 
 .animateback3 {
-transform: translateX(-25.24%);
+transform: translateX(-74%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -205,7 +277,7 @@ transition: 1s;
 }
 
 .animateback4 {
-transform: translateX(-37.86%);
+transform: translateX(-111%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -214,7 +286,7 @@ transition: 1s;
 }
 
 .animateback5 {
-transform: translateX(-50.48%);
+transform: translateX(-148%);
 width: 268%;
 display: flex;
 height: 400px;
@@ -223,7 +295,7 @@ transition: 1s;
 }
 
 .animateback6 {
-transform: translateX(-63.1%);
+transform: translateX(-185%);
 width: 268%;
 display: flex;
 height: 400px;
