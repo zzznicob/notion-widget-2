@@ -303,6 +303,30 @@
   //// FIGURE OUT HOW TO MAKE EACH SLIDE APPEAR FOR EACH DAY APPART FROM BUTTONS
 
 
+const d = new Date();
+let day = d.getDay();
+
+function daystart() {
+  if (day = 1) {
+  document.getElementById('id1').className = 'animate'
+  }
+
+  if (day = 2) {
+  document.getElementById('id1').className = 'animate2'
+  }
+
+  if (day = 3) {
+  document.getElementById('id1').className = 'animate3'
+  }
+
+  if (day = 4) {
+  document.getElementById('id1').className = 'animate4'
+  }
+
+  if (day = 5) {
+  document.getElementById('id1').className = 'animate5'
+  }
+}
 
 var count = 0;
 
